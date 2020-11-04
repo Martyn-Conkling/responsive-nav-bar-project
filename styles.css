@@ -4,7 +4,7 @@ for bootstrap grid.  basically when the screen
 is => 768px */
 @media (min-width: 768px){
 
-.bd-links {
+.show-and-hide-nav {
     /* This makes my collapse nav show up
     when my screen is at a medium breakpoint
     this is so my nav can be collapsed when  */
@@ -14,8 +14,7 @@ is => 768px */
 
 #search-bar{
     position: relative;
-    width: 100%;
-    display: inline;
+    width: calc(100vw - 50px);
     
 }
 .nav-column{
